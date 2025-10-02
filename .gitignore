@@ -126,3 +126,4 @@ typings/
 **/_site/*.jpg
 *.png
 front-end/public/images/
+front-end/public/img/
