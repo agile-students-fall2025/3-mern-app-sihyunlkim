@@ -88,7 +88,7 @@ app.get('/about', async (req, res) => {
         "In my free time, I enjoy watching movies, journaling, and exploring new restaurants around the city.",
         "Right now, I’m learning full-stack development with the MERN stack and I’m excited to start building more complex applications."
       ],
-      imageUrl: "http://localhost:7002/img/profile.jpg"
+      imageUrl: "https://raw.githubusercontent.com/agile-students-fall2025/3-mern-app-sihyunlkim/master/front-end/public/profile.jpg"
     }
     res.json({
       about: aboutData,
