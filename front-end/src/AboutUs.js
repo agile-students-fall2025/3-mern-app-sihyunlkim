@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
-import './About.css'
+import './AboutUs.css'
 
 const About = props => {
   const [aboutData, setAboutData] = useState(null)
