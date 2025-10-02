@@ -78,16 +78,17 @@ app.post('/messages/save', async (req, res) => {
   }
 })
 
-//A route to handle fetching about us information 
-
-// a route to handle fetching about us information
+// A route to handle fetching about us information
 app.get('/about', async (req, res) => {
   try {
     const aboutData = {
-      name: "Name", 
-      paragraphs: ["paragraph"
+      name: "Sihyun Kim",
+      paragraphs: [
+        "I am a Computer Science major at NYU Abu Dhabi with a minor in Interactive Media. I am currently studying away in New York City, and I think this place is absolutely awesome!",
+        "In my free time, I enjoy watching movies, journaling, and exploring new restaurants around the city.",
+        "Right now, I’m learning full-stack development with the MERN stack and I’m excited to start building more complex applications."
       ],
-      imageUrl: "something"
+      imageUrl: "http://localhost:7002/img/profile.jpg"
     }
     res.json({
       about: aboutData,

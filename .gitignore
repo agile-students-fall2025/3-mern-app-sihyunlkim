@@ -123,4 +123,6 @@ typings/
 
 ## Jekyll artifacts
 **/.jekyll-cache
-**/_site/
+**/_site/*.jpg
+*.png
+front-end/public/images/
